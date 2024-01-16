@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./multiselect.css";
+import "./Chip.css";
 
 function Multiselect() {
   // Users Data

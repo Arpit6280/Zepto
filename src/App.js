@@ -1,5 +1,5 @@
 import React from "react";
-import Multiselect from "./Multiselect";
+import Chip from "./component/Chip";
 import "./App.css";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1 style={{ textAlign: "center", color: "blue" }}> PICK USERS</h1>
       <div className="user_container">
-        <Multiselect />
+        <Chip />
       </div>
     </div>
   );
