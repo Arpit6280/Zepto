@@ -1,0 +1,112 @@
+.multiSelectContainer {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.searchWrapper {
+  border-radius: 4px;
+  min-height: 22px;
+  padding: 5px;
+  border-bottom: 3px solid #7500fb;
+  position: relative;
+}
+
+.multiSelectContainer input {
+  background: transparent;
+  border: none;
+  margin-top: 3px;
+  border: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.optionListContainer {
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 1px;
+  position: absolute;
+  /* width: 100%; */
+  z-index: 2;
+}
+
+.displayNone {
+  display: none;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.img2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.multiSelectContainer ul {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.highlightOption {
+  background: #0096fb;
+  color: #fff;
+}
+
+.multiSelectContainer li {
+  padding: 5px;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(209, 204, 204);
+}
+
+.option {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chip {
+  align-items: center;
+  background-color: #0096fb;
+  border-radius: 11px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 4px 10px;
+}
+
+.highlight {
+  border: 2px solid red;
+}
+
+.closeIcon {
+  cursor: pointer;
+  float: right;
+  margin-left: 8px;
+}
+
+@media (max-width: 375px) {
+  p {
+    font-size: small;
+  }
+}
